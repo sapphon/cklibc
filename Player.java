@@ -26,6 +26,12 @@ public class Player extends BasePlayer {
 				
 				
 			
+			case "/findglitch":
+				libc.findStoryPointWithinRadius(libc.toI(args[0]), this);
+				break;
+				
+				
+			
 			default :
 				
 				return;
